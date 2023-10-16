@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form fill</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- form start from here -->
+
+
+    <div class="maincontainer" id="promtbox">
+        <h1>Please must Submit your Valid Information</h1>
+        <div class="subcontainer">
+            <div class="firstrow myDiv">
+                <div>Enter your First Name <input type="text" id="firstname"></div>
+                <div>Enter your Last Name <input type="text" id="lastname"></div>
+            </div>
+
+            <div class="secondrow myDiv">
+                Your email <input type="text" id="myemail">
+            </div>
+            <div class="thirdrow myDiv">
+                Your Number <input type="number" id="number">
+            </div>
+
+            <div class="selecting myDiv">
+                <label for="level">Which course you want to select:</label>
+                <select id="level" name="courses">
+                    <option value="Web Development">Web Development</option>
+                    <option value=" Mobile App Development"> Mobile App Development</option>
+                    <option value="Digital Marketing">Digital Marketing</option>
+                    <option value="Graphic Design">Graphic Design </option>
+                    <!-- Add more options as needed -->
+                </select>
+<div class="gender myDiv" ><label for="gender">Gender</label>
+<select name="gender " id="gender">
+    <option value="Male">Male</option>
+    <option value="Female">Female</option>
+</select>
+
+</div>
+            </div>
+            <button class="submitbtn" id="submitform" onclick="fire()" ondblclick="displayno()">Submit Now </button> 
+        </div>
+
+    </div>
+<!-- </form> -->
+    <!-- form end  here -->
+
+
+    <!-- form paste  here -->
+    <div class="maincontainer maincontainer2 userrecord" id="paste">
+        <h1>The data you provided, Plz recheck it?</h1>
+        <div class="subcontainer"> </div>
+            <div class="firstrowpaste  myDiv">Your Full Name <input type="text" id="fullname"></div>
+
+            <div class="secondrowpaste myDiv">
+                Your email <input type="text" id="usermail">
+            </div>
+            <div class="thirdrowpaste myDiv">
+                This is Your Number <input type="text" id="num"></button>
+            </div>
+
+            <div class="selecting myDiv">
+                <label for="level">You select this course:</label><input type="text" id="levels">
+
+
+                </select>
+            </div>
+            <div class="gender myDiv">
+                <label for="gender">Gender:</label><input type="text" id="genders">
+
+
+                </select>
+            </div>
+            <button class="submitbtn2" onclick="thankspage()">Confirm</button>
+    </div>
+    <div class="thankimage" id="imag"><img src="./professional-thank-you-with-elegant-background.jpg" alt=""> </div>
+     <script src="mob.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,84 @@
+
+.myDiv {
+    margin-bottom: 20px; /* Adjust the value as needed for the desired gap */
+}
+
+.maincontainer{
+    border: 3px solid black;
+    height: 320px;
+    width: 750px;
+  padding: 30px;
+    margin: auto;          
+}
+
+/* btn css herre */
+
+.submitbtn {
+    background-color: #007BFF; /* Background color */
+    color: #fff; /* Text color */
+    padding: 10px 20px; /* Padding around the text */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Show a pointer cursor on hover */
+    font-size: 16px; /* Font size */
+    transition: background-color 0.3s; /* Smooth color transition on hover */
+
+    /* Optional: Add a box-shadow for a raised effect */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Button hover effect */
+.submitbtn:hover {
+    background-color: #0056b3; /* Change background color on hover */
+}
+body{margin-top: 50px;
+    padding: 10px;
+    background-color: rgb(182, 217, 112);
+}
+
+.userrecord{
+    display: none;
+}
+.firstrow{
+    display: flex;
+}
+
+   /* for second box  */
+
+   .maincontainer1{
+    background-color: cadetblue;
+   }
+
+    .thankimage{
+        display: none;
+    }
+
+    .maincontainer2{
+        background-color: #155192;
+        padding: auto;
+        margin-top: 150px;
+        border: 6px solid rgb(0, 0, 0);
+        font-size: medium;
+        font-style: italic;
+        color: rgb(200, 236, 21);
+    }
+
+    .submitbtn2 {
+        background-color: #ebe00b; /* Background color */
+        color: #000000; /* Text color */
+        padding: 10px 20px; /* Padding around the text */
+        border: none; /* Remove border */
+        border-radius: 5px; /* Rounded corners */
+        cursor: pointer; /* Show a pointer cursor on hover */
+        font-size: 16px; /* Font size */
+        transition: background-color 0.3s; /* Smooth color transition on hover */
+    
+        /* Optional: Add a box-shadow for a raised effect */
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    
+
+    .submitbtn2:hover {
+        background-color: #000000; /* Change background color on hover */
+        color: aliceblue;
+    }
